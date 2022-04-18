@@ -1,0 +1,208 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f3f3f3;
+}
+
+.generalInfo{
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
+.template{
+  background:#fff;
+  padding: 3%;
+}
+
+.App{
+  background: #292727;
+  padding: 5%;
+}
+
+.summary{
+  margin-bottom: 2%;
+  line-height: 2;
+  letter-spacing: 3px;
+}
+.summary .summaryHeader{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.summary>p{
+  padding: 0 5rem 0 5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.experienc{
+  line-height: 2;
+}
+.experience .expHeader{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.experience span{
+ font-style: italic;
+}
+.experience .expCompanyName{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.eduContent {
+  display: flex;
+  justify-content: center;
+  column-gap: 15%;
+  margin-bottom: 2rem;
+}
+
+
+.expContent{
+  display: flex;
+  justify-content: center;
+  column-gap: 15%;
+  margin-bottom: 2rem;
+}
+
+.education{
+  line-height: 2;
+}
+ .eduHeader{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.education span{
+  font-style: italic;
+}
+.eduOutput .schoolName{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.schoolDetails{
+  font-weight: bold;
+}
+
+.languageOutput{
+  margin-bottom: 2%;
+}
+.languageOutput .languageHeader{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.languageOutput ul{
+  list-style-type: square;
+  line-height: 2;
+
+}
+
+.profCertContent {
+  display: flex;
+  column-gap: 8%;
+  margin-bottom: 3%;
+}
+
+.skillOutput .skillOutputHeader{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.skillOutput ul{
+  list-style-type: square;
+  line-height: 2;
+}
+
+.skillOutput{
+  margin-bottom: 2%;
+}
+
+.profCertOutput{
+  margin-bottom: 2%;
+}
+.profCertOutput .profCertHeader{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.profCertContent .profCertDateAwarded{
+  font-weight: bold;
+}
+
+.refrenceOutput .refOutHeader{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.refrenceOutput :is(.refCompanyName, .refreeName, .refTitle, .refEmail, .refPhoneNumber){
+font-size: 16px;
+line-height: 1.5;
+} 
+
+.refrenceOutput .refCompanyName{
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:375px) {
+  .email,
+  .address,
+  .phoneNumber,
+  .address{
+    font-size: 9px;
+  }
+
+  .icon{
+    font-size: 7px;
+  }
+
+ .summary>p{
+   padding: 0 2rem 0 2rem;
+ }
+}
+
+@media screen and (max-width:768px){
+  .template{
+    background: #292727;
+   
+  }
+  .header{
+    color: #292727;
+  }
+  
+  .App{
+    background:#fff;
+    color: #fff;
+  }
+}
