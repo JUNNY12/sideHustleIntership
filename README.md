@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Side Hustle Internship 5.0 First Assignment
+## Side Hustle Internship 5.0 First Assignment
 
 ## Available Scripts
 
