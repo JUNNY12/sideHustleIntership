@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sideHustleIntership/static/css/main.be813199.css",
+    "main.js": "/sideHustleIntership/static/js/main.e2442a47.js",
+    "index.html": "/sideHustleIntership/index.html",
+    "main.be813199.css.map": "/sideHustleIntership/static/css/main.be813199.css.map",
+    "main.e2442a47.js.map": "/sideHustleIntership/static/js/main.e2442a47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be813199.css",
+    "static/js/main.e2442a47.js"
+  ]
+}
